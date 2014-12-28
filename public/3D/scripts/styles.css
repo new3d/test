@@ -1,0 +1,12 @@
+#myImage-reel{overflow:hidden;position:relative;}
+#myImage-reel,#activeImage-reel .reel{display:block;}
+#myImage-reel.reel-loading{cursor:wait;}
+#myImage-reel .reel-cached{display:none;}
+#new3d { font-family:trebuchet; font-size:10px; text-decoration:none; color:#a2a2a2; z-index:10; position:absolute; }
+#myImage-reel .reel-preloader{position:absolute;left:0px;height:4px;overflow:hidden;background-color:#000;}
+#go_full_screen, #reelControlsPanel img, #reelControlsPanelF img, .go_full_screenCl, .reelControlsPanelCl img, .reelControlsPanelFCl img { cursor: pointer; }
+#staticPic, #panel, #panelF, .staticPicCl, .panelCl, .panelClF {border: 1px dashed #c2c2c2; overflow: visible;}
+.ax-controls { padding:5px 0 0 5px; }
+#zoomOutID { margin-left:5px;}
+#reelControlsPanel, #reelControlsPanelF { padding-top:5px; }
+.reelControlsPanelCl, reelControlsPanelClF { margin-top:5px; }
