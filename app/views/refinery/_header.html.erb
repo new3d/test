@@ -1,0 +1,22 @@
+<header id="header">
+  <div class="navbar-inverse" id="full_width">
+    <div class="container-fluid">
+      <nav class="navbar navbar-inverse" role="navigation" id="header_navbar">
+        <div class="navbar-header">
+          <%= link_to image_tag("logo.png", size: "363x48", :alt => Refinery::Core.site_name), refinery.root_path %>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+            <%= navigation_menu.to_html %>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!--
+<h1 id='logo'>
+  <%= link_to Refinery::Core.site_name, refinery.root_path %>
+</h1>
+<%= Refinery::Pages::MenuPresenter.new(refinery_menu_pages, self).to_html %>
+-->

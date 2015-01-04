@@ -13,7 +13,7 @@ gem 'pg'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-
+  gem 'bootstrap-sass', '3.3.1.0'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
@@ -41,8 +41,8 @@ gem 'jquery-rails'
 gem 'refinerycms', '~> 2.1.0'
 
 # Optionally, specify additional Refinery CMS Extensions here:
-gem 'refinerycms-acts-as-indexed', '~> 1.0.0'
-#  gem 'refinerycms-blog', '~> 2.1.0'
-#  gem 'refinerycms-inquiries', '~> 2.1.0'
-#  gem 'refinerycms-search', '~> 2.1.0'
-#  gem 'refinerycms-page-images', '~> 2.1.0'
+#gem 'refinerycms-acts-as-indexed', '~> 1.0.0'
+#gem 'refinerycms-blog', '~> 2.1.0'
+#gem 'refinerycms-inquiries', '~> 2.1.0'
+#gem 'refinerycms-search', '~> 2.1.0'
+#gem 'refinerycms-page-images', '~> 2.1.0'
