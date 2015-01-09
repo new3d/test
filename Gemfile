@@ -20,7 +20,9 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '2.3.0'
+gem 'fancybox2-rails', '~> 0.2.8'
+#gem 'fancybox-rails', '0.2.1'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

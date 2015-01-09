@@ -125,3 +125,25 @@ a.blocklink {
 	color: #666;
 }
 
+// 3D
+.myRow {
+	margin-bottom: 20px;
+}
+
+.myCol {
+float: left;
+margin-right: 55px;
+}
+
+.myColLast {
+float: none;
+}
+
+.myCol img, .myColLast img {
+border: 1px dashed #c2c2c2;
+}
+
+#img3Dlogo {
+width: 250px;
+height: 250px;
+}
