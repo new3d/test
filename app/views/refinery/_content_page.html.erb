@@ -1,3 +1,6 @@
+<% if params[:action]!="home" %>
+  <div class="text-center container-fluid" id="sub_bunner"><h1><%= @page.title %></h1></div>
+<% end %>
 <%= render_content_page(@page, {
       :hide_sections => [:body_content_title, local_assigns[:hide_sections]],
       :can_use_fallback => !local_assigns[:show_empty_sections] && !local_assigns[:remove_automatic_sections]

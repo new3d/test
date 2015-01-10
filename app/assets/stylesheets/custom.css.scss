@@ -15,6 +15,15 @@ $dark_background: #333333;
 	background-color: $dark_background;
 }
 
+#sub_bunner{
+	text-align: center;
+	padding:0 0 15px 0;
+	background-image: url(menu-bg.png);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	margin-bottom: 15px;
+}
+
 // header
 #header_navbar{
 	border:0px;

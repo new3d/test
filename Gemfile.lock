@@ -188,5 +188,6 @@ DEPENDENCIES
   pg
   rails (= 3.2.21)
   refinerycms (~> 2.1.0)
+  refinerycms-i18n (= 2.1.0)
   sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)
